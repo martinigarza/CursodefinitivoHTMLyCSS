@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Lista de frutas, verduras y carnes con deliciosas recetas"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Soy la lista del super!</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">Lista</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Soy la lista del super!</h1>
+      <ul>
+        <li>Frutas</li>
+        <ol>
+          <li>
+            <img
+              src="./public/img/sandia.jpg"
+              alt="Es la imagen de una Sandía"
+              width="50"
+            />
+            <a
+              href="https://www.elespanol.com/cocinillas/recetas/20170623/recetas-ultrafaciles-refrescarte-base-sandia/1000903959597_30.html"
+              >Sandía</a
+            >
+          </li>
+          <li>
+            <img
+              src="./public/img/uvas.jpg"
+              alt="Es la imagen de unas uvas"
+              width="50"
+            />
+            <a
+              href="https://cookpad.com/co/recetas/115099-mermelada-de-uvas-casera"
+              >Uvas</a
+            >
+          </li>
+          <li>
+            <img
+              src="./public/img/peras.jpg"
+              alt="Es la imagen de unas peras"
+              width="50"
+            />
+            <a
+              href="https://antojandoando.com/recetas/postres-y-panaderia/peras-en-almibar/"
+              >Peras</a
+            >
+          </li>
+        </ol>
+        <li>Carnes</li>
+        <ol>
+          <li>
+            <img
+              src="./public/img/bistec.jpg"
+              alt="Es la imagen de un bistec"
+              width="50"
+            />
+            <a
+              href="https://www.cocinafacil.com.mx/recetas-de-comida/receta/bistec-con-papas/"
+              >Bistec</a
+            >
+          </li>
+          <li>
+            <img
+              src="./public/img/pollo.jpg"
+              alt="Es la imagen de un pollo asado"
+              width="50"
+            />
+            <a
+              href="https://www.cocinafacil.com.mx/recetas-de-comida/receta/recetas-de-pollo-faciles/"
+              >Pollo</a
+            >
+          </li>
+          <li>
+            <img
+              src="./public/img/costillas_cerdo.jpg"
+              alt="Costillas de Cerdo asado"
+              width="50"
+            />
+            <a href="https://www.youtube.com/watch?v=peJi_0fx3PM"
+              >Costillas de Cerdo</a
+            >
+          </li>
+        </ol>
+        <li>
+          Verduras
+          <ol>
+            <li>
+              <img
+                src="./public/img/brocoli.jpeg"
+                alt="Imagen de un Brócoli"
+                width="50"
+              />
+              <a href="https://www.youtube.com/watch?v=J8dayLLFSVM">Brócoli</a>
+            </li>
+            <li>
+              <img
+                src="./public/img/papa.png"
+                alt="Papas Criollas"
+                width="50"
+              />
+              <a
+                href="https://antojandoando.com/recetas/papas/papas-en-mantequilla/"
+                >Papas Criollas</a
+              >
+            </li>
+            <li>
+              <img
+                src="./public/img/platano.jpg"
+                alt="Imagen de Plátanos"
+                width="50"
+              />
+              <a
+                href="https://www.quericavida.com/recetas/empanadas-de-platano-maduro-y-queso/21b4e266-eff2-4870-8b10-875045b015bb"
+                >Plátano</a
+              >
+            </li>
+          </ol>
+        </li>
+      </ul>
+    </main>
+    <footer>
+      <p>Developer Eduerpj &copy;2020</p>
+    </footer>
+  </body>
+</html>
