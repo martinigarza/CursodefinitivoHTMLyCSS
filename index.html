@@ -8,14 +8,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Soy la lista del super </title>
         <style>
-            .form {
+            .form div{
                 display: flex;
-                flex-direction: column;
+               
             }
             .footer p {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-style: oblique;
                 position: absolute;
                 bottom: 0%;
             }
+            
         </style>
     </head>
     <body>
@@ -58,6 +61,32 @@
                     <span>En que horario estudias?</span>
                     <input type="time" id="horario">
                 </label>
+              <div>
+                 <label for="hora">
+                    <span>Hora</span>
+                    <input type="time" id="hora" name="hora">
+                </label>
+                <label for="dia">
+                    <span>Dia</span>
+                    <input type="date" id="dia" name="dia">
+                </label>
+                <label for="semana">
+                    <span>Semana</span>
+                    <input type="week" id="semana" name="semana">
+                </label>
+                <label for="mes">
+                    <span>Mes</span>
+                    <input type="month" id="mes" name="mes">
+                </label>
+                <input type="submit" class="enviar">   
+              </div>
+
+              <label for="calendario">
+                <span>calendario</span>
+                <input type="datetime-local" id="calendario" name="calendario">
+              </label>
+              <input type="submit">
+                
             </form>
         </main>
         <footer class="footer">
