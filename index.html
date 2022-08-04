@@ -12,11 +12,21 @@
                 display: flex;
                
             }
+            .form1 {
+                position: absolute;
+                top: 500px;
+            }
             .footer p {
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                 font-style: oblique;
                 position: absolute;
                 bottom: 0%;
+            }
+            header {
+                text-align: center;
+                background-color: aquamarine;
+                
+               
             }
             
         </style>
@@ -87,6 +97,26 @@
               </label>
               <input type="submit">
                 
+            </form>
+
+            <form action="" class="form1">
+                <label for="nombre">
+                    <span>Cual es tu nombre?</span>
+                    <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+                </label>
+                <label for="correo">
+                    <span>Cual es tu correo?</span>
+                    <input type="email" name="correo" id="correo" autocomplete="email" required>
+                </label>
+                <label for="pais">
+                    <span>En que pais resides?</span>
+                    <input type="text" name="pais" id="pais" autocomplete="country" required>
+                </label>
+                <label for="CP">
+                    <span>Cual es el codigo postal de tu ciudad?</span>
+                    <input type="text" name="CP" id="CP" autocomplete="postal-code" required>
+                </label>
+                <input type="submit">
             </form>
         </main>
         <footer class="footer">
