@@ -40,3 +40,18 @@ h1 {
     position: absolute;
     bottom: 0%;
 }
+
+/* forma de colocar una caja contenedora de algo sin tener que hacer scroll en la pagina para los costados o para abajo, que no me quede espacios en blanco, ya que vienen por defecto en el nacegador
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+en caso que nuestra caja se encuentre en el main
+
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px;
+} */
