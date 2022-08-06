@@ -1,3 +1,17 @@
+/* como utilizar rem (unidad de medida) */
+
+
+
+/* forma de iniciar un documento en css */
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    font-size: 62.5%;
+}
+
 .main-nav {
     margin-top: 10px;
     list-style: none;
@@ -9,8 +23,8 @@
 }
 .main-nav__item a {
     color: white;
-    padding: 5px;
-    border-radius: 3px;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
     text-decoration: none;
 }
 .main-nav__item a:hover {
@@ -32,7 +46,7 @@ h1 {
 }
 .form1 {
     position: absolute;
-    top: 500px;
+    top: 50rem;
 }
 .footer p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -40,6 +54,7 @@ h1 {
     position: absolute;
     bottom: 0%;
 }
+
 
 /* forma de colocar una caja contenedora de algo sin tener que hacer scroll en la pagina para los costados o para abajo, que no me quede espacios en blanco, ya que vienen por defecto en el nacegador
 * {
