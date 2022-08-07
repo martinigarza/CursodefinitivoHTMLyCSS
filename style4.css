@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    font-size: 62.5%;
+}
+main {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.superior {
+    font-size: 1.6rem;
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    left: 32%;
+    top: 6rem;
+    padding: 2.8rem;
+    border-radius: 2rem;
+    border: 0.2rem solid black;
+}
+.inferior {
+    font-size: 1.6rem;
+    background-color: gray;
+    width: 55rem;
+    display: inline-block;
+    border: 0.2rem solid lawngreen;
+    padding: 6rem;
+    margin: 2rem 11rem 6rem 3rem;
+    line-height: calc(1.7rem + 20%);
+    border-radius: 2rem;
+}
